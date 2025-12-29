@@ -1,0 +1,107 @@
+/* Global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Header */
+header {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+header h1 {
+    margin: 0 0 10px 0;
+}
+header p {
+    margin: 8px 0;
+}
+
+/* Navigation */
+nav {
+    background: #333;
+    text-align: center;
+    padding: 15px 0;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+section#about {
+    background: white;
+}
+section#services {
+    background: #e8f5e9;
+}
+.testimonial {
+    background: white;
+}
+
+/* Articles / Figures */
+figure {
+    margin: 20px auto;
+}
+figure img {
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    background: #4CAF50;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+/* Tables (if any) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background: #4CAF50;
+    color: white;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+@media (min-width: 768px) {
+    figure img {
+        width: 80%;
+    }
+}
